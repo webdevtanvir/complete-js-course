@@ -6,18 +6,18 @@ Write a program to print the marks of a student in an object using for loop:
 object could be like this:
 ```js
  {
-  coco: 80,
-  harry: 98,
-  rohan: 75
+  Sabit: 80,
+  Tanvir: 98,
+  Koli: 75
  }
 ```
 <details><summary>Answer</summary>
 
 ```javascript
 let marks = {
-  coco: 80,
-  harry: 98,
-  rohan: 75
+  Sabit: 80,
+  Tanvir: 98,
+  Koli: 75
 }
 
 for (let i = 0; i < Object.keys(marks).length; i++) {
@@ -30,13 +30,13 @@ The first line creates an object called "marks" that contains three key-value pa
 
 The second line starts a `for` loop that will iterate through each of the keys in the "marks" object.
 
-The `Object.keys()` method is used to get an array of all the keys in the "marks" `object. Object.keys(marks)` will return an array containing ["coco", "harry", "rohan"]. The `.length` property is then used to get the number of items in this array (which is 3 in this case).
+The `Object.keys()` method is used to get an array of all the keys in the "marks" `object. Object.keys(marks)` will return an array containing ["Sabit", "Tanvir", "Koli"]. The `.length` property is then used to get the number of items in this array (which is 3 in this case).
 
 The `for` loop runs three times (once for each student) because of the `Object.keys(marks).length` condition in the loop.
 
 The third line of code inside the `for` loop is what prints the student's name and their corresponding marks to the console.
 
-The `Object.keys(marks)[i]` part of the code retrieves the key for the current student that we are looking at in the loop. For example, when `i` is `0`, it will retrieve the key `coco`.
+The `Object.keys(marks)[i]` part of the code retrieves the key for the current student that we are looking at in the loop. For example, when `i` is `0`, it will retrieve the key `Sabit`.
 
 The marks`[Object.keys(marks)[i]]` part of the code retrieves the value for the current key. In other words, it gets the marks for the current student. For example, when `i` is `0`, it will retrieve the value `80`.
 
@@ -52,9 +52,9 @@ Write a program in Q1 using for in loop:
 
 ```javascript
 let marks = {
-  coco: 80,
-  harry: 98,
-  rohan: 75
+  Sabit: 80,
+  Tanvir: 98,
+  Koli: 75
 }
 
 for (let key in marks) {

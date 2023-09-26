@@ -1,9 +1,9 @@
 # Strings
 A string is a collection of characters enclosed in quotes. In JavaScript, you can use either single quotes or double quotes to create a string. However, it's important to remember that once you choose a quote type to start your string, you must use the same type to close it. For example, 
 ```js
-let name = "Harry";         //correct
+let name = "Sabit";         //correct
 let friend = 'Prakash'      //correct
-let wrong = 'Harry";        //wrong, never do this!
+let wrong = 'Sabit";        //wrong, never do this!
 ```
 
 Even a number enclosed in quotes is considered a string, like `"29"`. You can convert a number to a string using the `toString()` method. For example:
@@ -17,15 +17,15 @@ By converting a number to a string, you can no longer perform mathematical opera
 # Template Literals
 You can also use backticks \` (it is the button under your escape key) to create a string, called a template literal. This is useful when you need to embed variables within a string. Without template literals, you would need to concatenate strings and variables using the `+` operator. Here's an example:
 ```js
-const name = "Rayyan";
-const favorite = "Pepsi";
+const name = "Sabit";
+const favorite = "namaz";
 const sentence = name + " loves " + favorite;
-console.log(sentence); // Output: "Rayyan loves Pepsi"
+console.log(sentence); // Output: "Sabit love namaz"
 ```
 With template literals, you can embed variables within a string without using the `+` operator. We use the `${variable}` syntax to embed a variable within a string. Here's an example:
 ```js
 const sentence = `${name} loves ${favorite}`;
-console.log(sentence); // Output: "Rayyan loves Pepsi"
+console.log(sentence); // Output: "Sabit loves namaz"
 ```
 Notice how the variables are enclosed in `${}` within the backticks, and the string is automatically formatted with the values of the variables. This is called string interpolation.
 

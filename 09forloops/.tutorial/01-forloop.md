@@ -58,7 +58,7 @@ Here's an example of using a for-in loop to iterate over the properties of an ob
 
 ```javascript
 let person = {
-  name: "Harry",
+  name: "Tanvir",
   age: 30,
   gender: "male"
 };

@@ -45,10 +45,10 @@ Variables are used to store data. They are like containers that hold data.Just l
 Variables are declared using the `var`, `let` or `const` keyword (we will discuss this in next lecture). The syntax for declaring a variable is as follows:
 
 ```js
-var name = "Harry";
+var name = "Tanvir";
 ```
 
-Here, `name` is the name of the variable and `"Harry"` is the value that is stored in the variable. The value can be of any type. It can be a string, a number, a boolean, an array, an object, etc. Don't worry if you don't understand what these terms mean. We will cover them in the upcoming lectures.
+Here, `name` is the name of the variable and `"Tanvir"` is the value that is stored in the variable. The value can be of any type. It can be a string, a number, a boolean, an array, an object, etc. Don't worry if you don't understand what these terms mean. We will cover them in the upcoming lectures.
 
 Now that we know what variables are, let's discuss some rules for naming variables.
 
