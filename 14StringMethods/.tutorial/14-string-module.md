@@ -41,7 +41,7 @@ The `replace()` method returns a new string with some or all matches of a patter
 ```js
 let name = "Tanvir";
 console.log(name.replace("ir", "in")); // Output: Tanvin
-console.log(name.replace("ir", "in")); // This will not work because "Ry" is not present in the string
+console.log(name.replace("ir", "in")); // This will not work because "ir" is not present in the string
 ```
 Note that `replace()` is case-sensitive.
 

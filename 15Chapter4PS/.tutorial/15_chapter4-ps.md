@@ -4,11 +4,11 @@ Time to practice what you've learned! This practice set will help you get comfor
 ## Question 1
 What will the following code print in JavaScript?
 ```js
-console.log("har\"".length)
+console.log("tan\"".length)
 ```
 <details><summary>Answer</summary>
 
-The above code will print `4` because the escape sequence `\` is not counted as a character in the string. Therefore, the length of the string `"har\""` is actually 4, not 5.
+The above code will print `4` because the escape sequence `\` is not counted as a character in the string. Therefore, the length of the string `"tan\""` is actually 4, not 5.
 </details> </br>
 
 ## Question 2
@@ -22,7 +22,7 @@ console.log(str.includes("Hello")); // true
 console.log(str.startsWith("Hello")); // true
 console.log(str.endsWith("World")); // true
 
-console.log(str.includes("harry")); // false
+console.log(str.includes("tanvir")); // false
 console.log(str.startsWith("new")); // false
 console.log(str.endsWith("new")); // false
 ```
@@ -45,11 +45,11 @@ The `toLowerCase` method returns the calling string value converted to lower cas
 </details> </br>
 
 ## Question 4
-Extract the numerical amount from this string "Total: Rupees 2907".
+Extract the numerical amount from this string "Total: Tk 2907".
 <details><summary>Answer</summary>
 
 ```js
-let str = "Total: Rupees 2907";
+let str = "Total: Tk 2907";
 console.log(str.slice(13));
 ```
 The `slice` method extracts a section of a string and returns it as a new string, without modifying the original string. The `slice` method takes two arguments, the starting index and the ending index (end not included). If the ending index is not specified, it will slice the string till the end.
